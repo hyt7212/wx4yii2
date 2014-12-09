@@ -49,6 +49,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+//        echo Yii::getVersion();exit;
         return $this->render('index');
     }
 
