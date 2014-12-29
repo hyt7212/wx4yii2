@@ -29,4 +29,8 @@ class TestController extends \yii\web\Controller
         return $this->render('index');
     }
 
+    public function actionT1()
+    {
+        return $this->render('t1');
+    }
 }
